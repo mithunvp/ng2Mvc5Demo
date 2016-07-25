@@ -13,3 +13,5 @@ transpiles TypeScript files to JavaScript.
 * Ensure everything works fine and run app to see Angular 2 running on ASP.NET MVC 5.
 
 Angular Material is optional but I wanted to use it, so included.
+
+Visit www.mithunvp.com for more interesting articles
