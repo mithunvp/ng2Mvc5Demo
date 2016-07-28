@@ -2,7 +2,7 @@
 Using Angular 2 in ASP.NET MVC 5 &amp; Visual Studio 2015
 
 How to run?
-* Ensure latest NODE is installed.
+* Ensure latest NODEJS and TypeScript is installed.
 * Clone repo or fork it.
 * Open command prompt containing package.json
 * run "npm install" this will install all Angular 2 packages
@@ -13,5 +13,7 @@ transpiles TypeScript files to JavaScript.
 * Ensure everything works fine and run app to see Angular 2 running on ASP.NET MVC 5.
 
 Angular Material is optional but I wanted to use it, so included.
+
+Read through more on here http://www.mithunvp.com/using-angular-2-asp-net-mvc-5-visual-studio/
 
 Visit www.mithunvp.com for more interesting articles
