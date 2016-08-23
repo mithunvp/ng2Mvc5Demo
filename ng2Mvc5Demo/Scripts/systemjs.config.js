@@ -5,14 +5,14 @@
 (function (global) {
     // map tells the System loader where to look for things
     var map = {
-        'app': 'Scripts', // 'dist',
-        '@angular': './libs/@angular',
-        'angular2-in-memory-web-api': './libs/angular2-in-memory-web-api',
-        'rxjs': './libs/rxjs'        
+        'app': '/Scripts', // 'dist',
+        '@angular': '/libs/@angular',
+        'angular2-in-memory-web-api': '/libs/angular2-in-memory-web-api',
+        'rxjs': '/libs/rxjs'        
     };
 
     var Materialmap = {        
-        '@angular2-material': './libs/@angular2-material'
+        '@angular2-material': '/libs/@angular2-material'
     };
 
 
