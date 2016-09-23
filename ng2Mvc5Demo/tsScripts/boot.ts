@@ -1,5 +1,11 @@
 ﻿///<reference path="./../typings/globals/core-js/index.d.ts"/>
-import {bootstrap}    from '@angular/platform-browser-dynamic';
-import {AppComponent} from './app';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app';
 
-bootstrap(AppComponent);
+@NgModule({
+    imports: [BrowserModule ],
+    declarations: [AppComponent],
+    bootstrap: [AppComponent]
+})
+export class AppModule { }

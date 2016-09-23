@@ -247,3 +247,10 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/ng2Mvc5Demo/libs
+/ng2Mvc5Demo/Scripts/main.js.map
+/ng2Mvc5Demo/Scripts/main.js
+/ng2Mvc5Demo/Scripts/boot.js.map
+/ng2Mvc5Demo/Scripts/boot.js
+/ng2Mvc5Demo/Scripts/app.js.map
+/ng2Mvc5Demo/Scripts/app.js

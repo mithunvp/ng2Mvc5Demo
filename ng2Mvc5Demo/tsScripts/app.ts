@@ -1,14 +1,18 @@
-﻿import {Component} from '@angular/core';
-import { MD_LIST_DIRECTIVES } from '@angular2-material/list';
+﻿import { Component } from '@angular/core';
 @Component({
     selector: 'my-app',
-    template: `<md-list>
-   <md-list-item> MVC 5 </md-list-item>
-   <md-list-item> Angular 2 </md-list-item>
-   <md-list-item> Visual Studio 2015 </md-list-item>
-</md-list>`,
-    directives: [
-        MD_LIST_DIRECTIVES,
-    ],
+    template: `    
+    <h2>My favorite skill is: {{myskills}}</h2>
+    <p>Skill:</p>
+    <ul>
+      <li *ngFor="let skl of skills">
+        {{ skl }}
+      </li>
+    </ul>
+  `
 })
-export class AppComponent { }
+export class AppComponent {
+    title = 'ASP.NET MVC 5 with Angular 2';
+    skills = ['MVC 5', 'Angular 2', 'TypeScript', 'Visual Studio 2015'];
+    myskills = this.skills[1];
+}

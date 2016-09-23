@@ -27,7 +27,9 @@ gulp.task("scriptsNStyles", () => {
         .pipe(gulp.dest("./libs"));
 });
 
-var tsProject = ts.createProject('tsScripts/tsconfig.json');
+var tsProject = ts.createProject('tsScripts/tsconfig.json', {
+    typescript: require('typescript')
+});
 gulp.task('ts', function (done) {
     //var tsResult = tsProject.src()
     var tsResult = gulp.src([
