@@ -2,8 +2,8 @@
 Using Angular 2 in ASP.NET MVC 5 &amp; Visual Studio 2015
 
 Update 
-October 22/16 - Updated to Angular 2.1
-Sept 24 2016 - Using Angular 2 Final Release. Must install TypeScript 2 RC in Visual Studio 2015 Update 3
+* October 22/16 - Updated to Angular 2.1
+* Sept 24 2016 - Using Angular 2 Final Release. Must install TypeScript 2 in Visual Studio 2015 Update 3.
 
 How to run?
 * Ensure latest NODEJS and TypeScript is installed.
