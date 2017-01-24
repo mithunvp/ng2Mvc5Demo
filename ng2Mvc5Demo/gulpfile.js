@@ -10,7 +10,7 @@ gulp.task('clean', function () {
         .pipe(clean());
 });
 
-gulp.task("scriptsNStyles", () => {
+gulp.task("scriptsNStyles", function() {
     gulp.src([
             'core-js/client/**',
             'systemjs/dist/system.src.js',
