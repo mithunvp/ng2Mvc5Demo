@@ -9,11 +9,16 @@
     "removeComments": false,
     "sourceMap": true,
     "target": "es5",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+	"typeRoots": [
+      "./node_modules/@types",
+      "./node_modules"
+    ],
+    "types": [
+      "node"
+]
   },
   "exclude": [
-    "node_modules",
-    "typings/index",
-    "typings/index.d.ts"
+    "node_modules" 
   ]
 }

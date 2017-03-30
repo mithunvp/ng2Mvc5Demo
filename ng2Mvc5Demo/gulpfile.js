@@ -10,16 +10,15 @@ gulp.task('clean', function () {
         .pipe(clean());
 });
 
-gulp.task("scriptsNStyles", () => {
+gulp.task("scriptsNStyles", function() {
     gulp.src([
-            'core-js/client/**',
-            'systemjs/dist/system.src.js',
-            'reflect-metadata/**',
+            'core-js/client/*.js',
+            'systemjs/dist/*.js',
+            'reflect-metadata/*.js',
             'rxjs/**',
-            'zone.js/dist/**',
-            '@angular/**',
-            'jquery/dist/jquery.*js',
-            'bootstrap/dist/js/bootstrap.*js'            
+            'zone.js/dist/*.js',
+            '@angular/**/bundles/*.js',            
+            'bootstrap/dist/js/*.js'
     ], {
         cwd: "node_modules/**"
     })
@@ -34,7 +33,7 @@ gulp.task('ts', function (done) {
     var tsResult = gulp.src([
             "tsScripts/*.ts"
     ])
-        .pipe(ts(tsProject), undefined, ts.reporter.fullReporter());
+        .pipe(tsProject(), undefined, ts.reporter.fullReporter());
     return tsResult.js.pipe(gulp.dest('./Scripts'));
 });
 
