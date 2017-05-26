@@ -1,5 +1,5 @@
 # ng2Mvc5Demo
-Using Angular 2(version 4) in ASP.NET MVC 5 &amp; Visual Studio 2015
+Using Angular 2(previously version 2) in ASP.NET MVC 5 &amp; Visual Studio 2015
 
 Update 
 * 26/5/2017 - Updated to Angular 4.1, TypeScript 2.3, removed typings
